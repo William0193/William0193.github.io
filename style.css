@@ -1055,7 +1055,7 @@ a:link
 .top-container
 {
   grid-template-areas:
-  'showcase'
+  'showcases'
   'top1'
   'top2';
 }
