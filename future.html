@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Grid Practice</title>
+<script src="https://kit.fontawesome.com/43f2a2d2a0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Lobster&family=Praise&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Navigation -->
+    <div class="container">
+       <h1 class="name">William Hopkins</h1>
+      <nav class="navbar">
+        <div class="hamburger-menu">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div>
+        </div>
+
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link"  href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link"  href="OTC.html">OTC</a></li>
+          <li class="nav-item"><a class="nav-link"  href="designs.html">Web Designs</a></li>
+          <li class="nav-item"><a class="nav-link"  href="future.html">MSU</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Top Container -->
+    <div class="futureheader"><h2>Starting in Spring of 2022</h2></div>
+    <div class="degree">
+      <h2>My Degree Goal</h2>
+        <a href="https://itc.missouristate.edu/it/application-development-track.htm" target="_blank">Bachelors of Science in Application Development</a>
+        </div>
+    <section class="top-container">
+      <header class="showcase1 showcases">
+        <div class="mobile">
+          <div id="screen" class="screen"></div>
+          <button onclick="myFunction()" id="active" class="home"></button>
+          <div class="inner"></div>
+          <ul class="volume">
+            <li></li>
+            <li></li>
+          </ul>
+          <ul class="silent">
+            <li></li>
+          </ul>
+          <ul class="sleep">
+            <li></li>
+          </ul>
+        </div>
+        <div class="notification">
+          <i class="far fa-comment-alt">&nbsp; MESSAGE</i>
+          <br>Click Home Button To See Future!
+        </div>
+      </header>
+
+
+      <div class="top-box top-box-f">
+        <h2>Anticipated Future Classes at MSU</h2>
+        <a href="Future/MobileApp.png" target="_blank" class="btn">Mobile App Development</a>
+        <a href="Future/WebApps.png" target="_blank" class="btn">Web Development</a>
+        <a href="Future/DataVisualization.png" target="_blank" class="btn">Data Visualization</a>
+        <a href="Future/DataApps.png" target="_blank" class="btn">Database Application Development</a>
+        <a href="Future/ProjectMgmt.png" target="_blank" class="btn">IT Project Management</a>
+        <a href="Future/AdvWebApps.png" target="_blank" class="btn">Adv. Web Development</a>
+      </div>
+    </section>
+
+    <footer>
+      <p> William Hopkins &copy; 2021</p>
+    </footer>
+
+
+  </div>
+
+<script>
+
+const menuIcon = document.querySelector('.hamburger-menu');
+const navbar = document.querySelector('.navbar');
+
+menuIcon.addEventListener('click', () => {
+navbar.classList.toggle('change');
+})
+
+function myFunction() {
+  var element = document.getElementById("screen");
+  element.classList.toggle("screennew")
+}
+
+
+</script>
+
+</body>
+
+</html>

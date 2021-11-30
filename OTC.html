@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<!--
+    Author: William Hopkins
+    Date: 8-26-2021
+    Assignment: About me HTML Web Page
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Here at OTC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Responsive.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<!-- Main Body Section containing the First Header, The Navigation bar below that, Header #2
+and an ordered list containing my top 10 favorite classes-->
+<body>
+
+    <!--Heading #1 Describing Page-->
+<div class="wapper">
+        <!--Navigation bar containing link to the different pages of the site-->
+        <div class="container">
+           <h1 class="name">William Hopkins</h1>
+          <nav class="navbar">
+            <div class="hamburger-menu">
+              <div class="line line-1"></div>
+              <div class="line line-2"></div>
+              <div class="line line-3"></div>
+            </div>
+
+            <ul class="nav-list">
+              <li class="nav-item"><a class="nav-link"  href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link"  href="OTC.html">OTC</a></li>
+              <li class="nav-item"><a class="nav-link"  href="designs.html">Web Designs</a></li>
+              <li class="nav-item"><a class="nav-link"  href="future.html">MSU</a></li>
+            </ul>
+          </nav>
+        </div>
+
+    <!--Header #2 which opens up the class list-->
+    <div class="classheader"><h2>Highlights and References</h2></div>
+
+
+
+        <!--Ordered list contining my 10 favorite classes so far-->
+<div class="class-cards">
+
+            <div class="classboxes">
+              <a href="OTC/CIS230.PNG" target="_blank">CIS-230</a>
+            </div>
+
+            <div class="classboxes">
+              <a href="OTC/CIS250.PNG" target="_blank">CIS-250</a>
+            </div>
+
+            <div class="classboxes">
+              <a href="OTC/NET107.PNG" target="_blank">Net-107</a>
+            </div>
+
+            <div class="classboxes">
+              <a href="OTC/CIS201.PNG" target="_blank">CIS-201</a>
+            </div>
+
+            <div class="classboxes">
+              <a href="OTC/CIS101.PNG" target="_blank">CIS-101</a>
+            </div>
+
+            <div class="classboxes">
+              <a href="OTC/MTH130.PNG" target="_blank">MTH-130</a>
+            </div>
+
+            <div class="classboxes">
+              <a href="OTC/ACC220.PNG" target="_blank">ACC-220</a>
+            </div>
+
+            <div class="classboxes">
+              <a href="OTC.html" target="_blank">CIS-130</a>
+            </div>
+
+            <div class="classboxes">
+              <a href="OTC/PHY105.PNG" target="_blank">PHY-105</a>
+            </div>
+
+            <div class="classboxes">
+              <a href="OTC/MTH210.PNG" target="_blank">MTH-210</a>
+            </div>
+
+            <div class="classboxes">
+              <a href="OTC/Java.PNG" target="_blank">JAVA</a>
+            </div>
+  </div>
+</div>
+
+<footer>
+  <p><a href="mailto:wh0919250@otc.edu">Send a Message!</a></p>
+</footer>
+
+
+<script>
+
+const menuIcon = document.querySelector('.hamburger-menu');
+const navbar = document.querySelector('.navbar');
+
+menuIcon.addEventListener('click', () => {
+navbar.classList.toggle('change');
+})
+</script>
+
+</body>
+
+</html>
