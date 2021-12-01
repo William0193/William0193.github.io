@@ -1,0 +1,346 @@
+  /* Author: William Hopkins
+    Class: CIS-130-103
+    Date: 10/26/2021  */
+
+
+
+  nav
+{
+  text-align: center;
+  height: 30px;
+  width: auto;
+  background-color: red;
+  font-size: 25px;
+  border-bottom: 2px solid blue;
+  border-top: 2px solid white;
+  margin-bottom: 20px;
+}
+
+nav a:link
+{
+  color: blue;
+}
+
+a:link
+{
+  color: blue;
+}
+
+a:active
+{
+   color: white;
+}
+
+a:visited
+{
+  color: orange;
+}
+
+a:hover
+{
+  color: white;
+}
+
+body
+{
+  background-image: url("pictures/Flag.png");
+  background-size: contain;
+  z-index: 1;
+}
+
+h1
+{
+  background-color: white;
+  border-radius: 50%;
+  width: 500px;
+  margin: auto;
+  box-shadow: 4px 5px 5px black;
+  border: 2px solid black;
+  text-align: center;
+}
+
+h2
+{
+  text-align: center;
+  text-decoration: underline;
+  background-color: rgba(0, 0, 100, .4);
+  border-radius: 10px;
+  border: 1px solid grey;
+  box-shadow: 4px 5px 50px white;
+  height: 35px;
+}
+
+iframe
+{
+  display: none;
+  margin: 20px;
+  box-shadow: 3px 4px 50px white;
+  padding: 20px;
+  border-radius: 15%;
+  width: 90%;
+}
+
+section img
+{
+margin: 20px;
+padding: 20px;
+width: 70%;
+text-align: center;
+box-shadow: 1px 2px 50px white;
+opacity: 100%;
+z-index: 10;
+border-radius: 15%;
+}
+
+.things div
+{
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  background: rgba(0, 0, 100, 0.3);
+  border-radius: 0% 15%;
+  box-shadow: 2px 3px 40px white;
+  border: 1px solid grey;
+  height: auto;
+  width: auto;
+  text-align: center;
+  z-index: 1;
+}
+
+.things div:hover
+{
+  transform: scale(1.04);
+  box-shadow: 4px 5px 10px black;
+  background: rgba(0, 0, 100, 0.65);
+  color: orange;
+}
+
+.plate1 img
+{
+float: right;
+background: rgba(0, 0, 100, 0.3);
+border-radius: 15%;
+border: 1px solid grey;
+}
+
+.plate2 img
+{
+  background: rgba(0, 0, 100, 0.3);
+  border-radius: 15%;
+  border: 1px solid grey;
+}
+
+.plate1 img:hover
+{
+float: right;
+background: rgba(0, 0, 100, 0.3);
+border-radius: 15%;
+  box-shadow: 4px 5px 10px black;
+border: 1px solid grey;
+}
+
+.plate2 img:hover
+{
+  background: rgba(0, 0, 100, 0.3);
+  border-radius: 15%;
+    box-shadow: 4px 5px 10px black;
+  border: 1px solid grey;
+}
+
+footer
+{
+  text-align: center;
+  height: auto;
+  width: auto;
+  position: relative;
+  bottom: -1px;
+  background-color: orange;
+  font-size: 30px;
+}
+
+
+/* Small tablet viewport */
+@media screen and (min-width: 576px)
+{
+
+  iframe
+  {
+   width: 80%;
+   height: 80%;
+   margin: auto;
+   border-radius: 15%;
+   display: flex;
+  }
+
+.things img
+{
+ width: 80%;
+ margin: auto;
+}
+
+.things div
+{
+  background: rgba(0, 0, 100, 0.3);
+  border-radius: 0% 15%;
+  border: 1px solid grey;
+  color: white;
+}
+}
+
+/* Large Tablet viewport */
+@media screen and (min-width: 768px)
+{
+  iframe
+  {
+  display: flex;
+  margin: auto;
+  height: 80%;
+  width: 80%;
+  }
+
+.things img
+{
+  height: 80%;
+  width: 80%;
+  margin: auto;
+}
+
+.things div
+{
+  background: rgba(0, 0, 100, 0.3);
+  border-radius: 15%;
+  border: 1px solid grey;
+  color: white;
+  display: inline-table;
+  width: 35%;
+  height: 35%;
+}
+
+.plate1 img
+{
+  width: 80%;
+  height: 80%;
+}
+
+.plate2 img
+{
+  width: 80%;
+  height: 80%;
+}
+
+.plate1
+{
+  width: 40%;
+  height: 40%;
+  display: inline-table;
+  border-radius: 15%;
+}
+
+.plate2
+{
+  width: 40%;
+  height: 40%;
+  display: inline-table;
+  border-radius: 15%;
+}
+
+.plate1:hover
+{
+ transform: scale(1.1);
+}
+
+.plate2:hover
+{
+ transform: scale(1.1);
+}
+
+.food
+{
+  text-align: center;
+}
+
+.things
+{
+  text-align: center;
+}
+
+}
+
+/* leptop screen & larger */
+@media screen and (min-width: 992px)
+{
+
+  iframe
+  {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  }
+
+.things img
+{
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+
+.things div
+{
+  width: 23%;
+  height: 23%;
+  background: rgba(0, 0, 100, 0.3);
+  border-radius: 10%;
+  border: 1px solid grey;
+  display: inline-table;
+  color: white;
+}
+
+.plate1 img
+{
+  width: 80%;
+  height: 80%;
+}
+
+.plate2 img
+{
+  width: 80%;
+  height: 80%;
+}
+
+.plate1
+{
+  width: 25%;
+  height: 25%;
+  border-radius: 15%;
+}
+
+.plate2
+{
+  width: 25%;
+  height: 25%;
+  border-radius: 15%;
+}
+
+.plate1:hover
+{
+ transform: scale(1.1);
+}
+
+.plate2:hover
+{
+ transform: scale(1.1);
+}
+
+.food
+{
+  text-align: center;
+}
+
+.food div
+{
+  margin: 20px;
+  display: inline-grid;
+}
+
+}
