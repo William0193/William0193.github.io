@@ -1165,6 +1165,8 @@ a:link
 @media screen and (max-width: 800px)
 {
 
+
+/* grid positioning */
 .top-container
 {
   grid-template-areas:
@@ -1181,6 +1183,7 @@ a:link
 }
 
 
+/* different boxes getting centered and margin added */
 .top-box-a a
 {
   margin: 20px auto;
@@ -1205,11 +1208,13 @@ a:link
     margin: 25px auto 10px auto;
 }
 
-
-section .boxes
-{
-    position: relative;
-    top: -80px;
+/* boxes for index page excel and visio icons */
+.boxes {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .container
