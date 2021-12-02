@@ -21,7 +21,7 @@ body
 {
     width: auto;
     height: auto;
-    background-image: url('images/Pattern3.svg');
+    background-image: url('images/Pattern3.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -84,7 +84,7 @@ body
 {
       height: auto;
       padding: 15px;
-      width: 90%;
+      width: 95%;
       position: relative;
       color: black;
       border-radius: 15px;
@@ -1016,6 +1016,8 @@ select
   border-radius: 20px;
   border: 1px solid black;
   grid-gap: 20px;
+  width: 90%;
+  margin: auto;
   text-decoration: none;
   grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
   background-color: var(--primary);
