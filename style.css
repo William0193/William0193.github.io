@@ -32,6 +32,7 @@ body
 .name
 {
   color: white;
+  font-size: 2.5rem;
   text-shadow: 2px 2px 4px chocolate;
 }
 
@@ -318,6 +319,12 @@ font-size: 2.5rem;
        inset -5px -5px 20px rgba(255,255,255,.7);
 }
 
+.top-box-f h2 {
+  margin: 10px auto;
+  padding: 20px;
+  height: 60px;
+  align-items: center;
+}
 
 
 .top-box-e a
